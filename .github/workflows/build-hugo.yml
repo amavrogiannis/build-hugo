@@ -42,6 +42,7 @@ jobs:
           path: hello-world/public/
 
   download:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Download Artifact
