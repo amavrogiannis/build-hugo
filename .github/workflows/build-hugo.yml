@@ -29,8 +29,14 @@ jobs:
           hugo --config hugo.toml
           hugo --destination public
 
+      - name: check pwd
+        run: |
+          cd hello-world
+          ls -l
+          pwd
+
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
           name: hugo-public
-          path: public
+          path: hello-world/public/
