@@ -1,0 +1,2 @@
+[io.buildpacks]
+builder = "cnbs/sample-builder:noble"
