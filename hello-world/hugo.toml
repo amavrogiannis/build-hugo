@@ -1,0 +1,11 @@
+baseURL = 'http://example.local/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = ['demotheme']
+
+[languages.en]
+  languageCode      = 'en-US'
+  languageDirection = 'ltr'
+  languageName      = 'English'
+  title             = 'Hugo Multilingual Example (en)'
+  weight            = 1

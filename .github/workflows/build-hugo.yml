@@ -18,5 +18,7 @@ jobs:
         
       - name: Building
         run: |
+          cd hello-world
           ls -l
+          hugo --config hugo.toml
           hugo --destination public
